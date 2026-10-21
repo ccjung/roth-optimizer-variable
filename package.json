@@ -1,0 +1,23 @@
+{
+  "name": "roth-optimizer-variable",
+  "version": "1.0.0",
+  "description": "Roth Conversion Optimizer with Smart Variable Conversion Strategy — Phase 1 Golden Window + Phase 2 IRMAA Cap",
+  "type": "module",
+  "scripts": {
+    "dev":     "vite",
+    "build":   "vite build",
+    "preview": "vite preview",
+    "test":    "node test/engine.test.mjs"
+  },
+  "dependencies": {
+    "react":     "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts":  "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/react":     "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.4"
+  }
+}
